@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+}
+
+ul.navigation {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+li {
+    color: #1D3557;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #1D3557
+}
+

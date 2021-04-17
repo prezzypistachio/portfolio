@@ -1,10 +1,11 @@
 import React from 'react'
-import Home from './Home'
-import AboutMe from './AboutMe';
-import Skills from './Skills';
-import Button from './Button';
-import Contact from './Contact'
+import Home from '../Home/Home'
+import AboutMe from '../AboutMe/AboutMe';
+import Skills from '../Skills/Skills';
+import Button from '../Button/Button';
+import Contact from '../Contact/Contact'
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import './Header.css'
 
 
 class Header extends React.Component {
@@ -13,7 +14,8 @@ class Header extends React.Component {
             <BrowserRouter>
                 <div>
                     <nav>
-                        <ul>
+                        <ul className="navigation">
+                            <li>Andre Stovall</li>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About Me</Link></li>
                             <li><Link to="/skills">Skills</Link></li>

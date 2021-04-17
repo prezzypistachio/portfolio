@@ -1,0 +1,25 @@
+.main {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #1D3557;
+}
+
+.secondary {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #457B9D
+}
+
+.content-container {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: flex;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        text-align: center;
+        color: red
+    }
+}
